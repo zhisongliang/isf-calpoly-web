@@ -1,1 +1,1 @@
-# ISF Cal Poly SLO
+# isf-calpoly-web
