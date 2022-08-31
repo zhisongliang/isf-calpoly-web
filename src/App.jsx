@@ -1,21 +1,19 @@
-import React from 'react'
-import { Header, Team, About, Solutions, Services } from './sections/sections';
-import { Navbar } from './components/components';
-import './app.css';
+import Hero from "./Views/Hero";
+import About from "./Views/About";
+import Details from "./Views/Details";
+import Contact from "./Views/Contact";
+import Footer from "./Components/Footer";
 
 const App = () => {
-    return (
-        <div>
-            <div className='teamup__top'>
-                <Navbar />
-                <Header />
-            </div>
-            <Services />
-            <Team />
-            <About />
-            <Solutions />
-        </div>
-    )
+  return (
+    <div className="App">
+      <Hero />
+      <About />
+      <Details />
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
