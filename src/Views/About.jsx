@@ -12,17 +12,23 @@ const About = () => {
                     <Container>
                         <div>
                         <p className="title">
-                            <span className="white-color" style={{ fontWeight: 'bold' }}>Elegalio</span> is a responsive, elegant and simple to modify template, made with React.
+                            <span className="white-color" style={{ fontWeight: 'bold' }}>ISF</span> - International Student Friendship
                         </p>
-                        <p className="subtitle">
-                            I used Bootstrap for grid system and nice classes that help with the basic structure of a website.
+                        <p className="subtitle"><span className="black-color" style={{ fontWeight: 'bold' }}>
+                        The Cal Poly International Student Friendship Club wants to build lasting friendships among international students, 
+                        scholars and Christian American friends by caring for and fostering one another's unique interests – 
+                        physical, social, emotional, and spiritual. We seek to help the Cal Poly, San Luis Obispo international 
+                        student community reach their full potential as leaders.</span> 
+                        </p>
+                        <p className="subtitle"><span className="black-color" style={{ fontWeight: 'bold' }}>
+                        IN OTHER WORDS, WE WANT TO BE YOUR FRIENDS!!!</span> 
                         </p>
                         </div>
                     </Container>
                 </Fade>
             </section>
 
-            <section id="about-p2">
+           {/* <section id="about-p2">
                 <Fade left duration={500} delay={600} distance="30px">
                     <Container>
                         <div className="mb-5"><h2>Let's take a look</h2></div>
@@ -53,7 +59,7 @@ const About = () => {
                         </Row>
                     </Container>
                 </Fade>
-            </section>
+    </section> */}
         </>
     );
 };

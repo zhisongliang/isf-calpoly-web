@@ -17,7 +17,7 @@ const Hero = () => {
                         <Fade bottom duration={500} delay={600} distance="30px">
                             <div className="header">
                                 <div className="header-content">
-                                    <div><a href="https://elegalio.netlify.app/"><b>Elegalio</b></a></div>
+                                    <div><a href="https://main.de8en6hw10wec.amplifyapp.com"><b>ISF</b></a></div>
                                     <div style={{ display: 'flex' }}>
                                         <div className="navbar-item"><Link to="about" smooth duration={500}>About</Link></div>
                                         <div className="navbar-item"><Link to="details" smooth duration={500}>Details</Link></div>
@@ -89,9 +89,9 @@ const Content = () => {
         <div>
             <Fade left duration={500} delay={600} distance="30px">
                 <div className="mb-4">
-                    <h1 className="primary-color">Elegalio</h1>
-                    <h2>A simple and elegant website template</h2>
-                    <p style={{ maxWidth: 550 }}>You can insert whatever you want in this template, from yours text to images: if you want you can change the context to what you need.</p>
+                    <h1 className="primary-color">ISF</h1>
+                    <h2>International Student Friendship</h2>
+                    <p style={{ maxWidth: 550 }}>The Cal Poly International Student Friendship Club wants to build lasting friendships among international students, scholars and Christian American friends.</p>
                 </div>
 
                 <Link to="about" smooth duration={500}>

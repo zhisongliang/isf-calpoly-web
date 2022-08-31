@@ -6,7 +6,7 @@ const Details = () => {
         <section id="details">
             <Container>
                 <Fade left duration={500} delay={600} distance="30px">
-                    <div className="mb-5 text-center"><h2>Explore the opportunities of this template</h2></div>
+                    <div className="mb-5 text-center"><h2>Explore this event</h2></div>
                 </Fade>
 
                 <Fade left duration={500} delay={600} distance="30px">
@@ -17,9 +17,9 @@ const Details = () => {
 
                         <Col lg={4} className="col-description">
                             <div>
-                                <h3 style={{ fontWeight: 'normal' }}>This is a very nice building.</h3>
+                                <h3 style={{ fontWeight: 'normal' }}>Event1.</h3>
                                 <p>I would love to tell more about it, but you'll have to press the button down here.</p>
-                                <a href="https://github.com/Giuseppetm/elegalio"><span className="button button-hero">Find out</span></a>
+                                <a href="https://main.de8en6hw10wec.amplifyapp.com"><span className="button button-hero">Find out</span></a>
                             </div>
                         </Col>
                     </Row>
@@ -29,9 +29,9 @@ const Details = () => {
                     <Row className="mb-5 mb-lg-0">
                         <Col lg={4} className="col-description">
                             <div>
-                                <h3 style={{ fontWeight: 'normal' }}>This is cool too.</h3>
-                                <p>There's a particular story about this building.. maybe you should check out!</p>
-                                <a href="https://github.com/Giuseppetm/elegalio"><span className="button button-hero">Discover this one</span></a>
+                                <h3 style={{ fontWeight: 'normal' }}>Event2.</h3>
+                                <p>There's a ... maybe you should check out!</p>
+                                <a href="https://main.de8en6hw10wec.amplifyapp.com"><span className="button button-hero">Discover this one</span></a>
                             </div>
                         </Col>
 
@@ -49,9 +49,9 @@ const Details = () => {
 
                         <Col lg={4} className="col-description">
                             <div>
-                                <h3 style={{ fontWeight: 'normal' }}>Woah, this is really nice.</h3>
-                                <p>I think ananas are really bad.. what do you think?</p>
-                                <a href="https://github.com/Giuseppetm/elegalio"><span className="button button-hero">Tell me about</span></a>
+                                <h3 style={{ fontWeight: 'normal' }}>Event3</h3>
+                                <p>what do you think?</p>
+                                <a href="https://main.de8en6hw10wec.amplifyapp.com"><span className="button button-hero">Tell me about</span></a>
                             </div>
                         </Col>
                     </Row>
