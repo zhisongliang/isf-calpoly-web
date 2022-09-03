@@ -17,7 +17,7 @@ const Hero = () => {
                         <Fade bottom duration={500} delay={600} distance="30px">
                             <div className="header">
                                 <div className="header-content">
-                                    <div><a href="https://main.de8en6hw10wec.amplifyapp.com"><b>ISF</b></a></div>
+                                    <div></div>
                                     <div style={{ display: 'flex' }}>
                                         <div className="navbar-item"><Link to="about" smooth duration={500}>About</Link></div>
                                         <div className="navbar-item"><Link to="details" smooth duration={500}>Details</Link></div>
@@ -44,7 +44,7 @@ const Hero = () => {
                     <img src={require("../Images/hero.jpg")} alt="Hero" />
                     <div className="header">
                         <div className="header-content">
-                            <div><a href="#dennis"><b>Elegalio</b></a></div>
+                            <div></div>
                             <div>
                                 {!lateralMenu 
                                 ? <HiMenuAlt2 style={{ fontSize: 24 }} onClick={() => setLateralMenu(true)} /> 
@@ -71,8 +71,6 @@ const Hero = () => {
                                     <div className="menu-item"><Link to="contact" smooth duration={500} onClick={() => setLateralMenu(false)}>Contact</Link></div>
                                 </div>
                                 <div className="menu-container" style={{ marginTop: 30 }}>
-                                    <div className="menu-title">Get in touch</div>
-                                    <div><a href="mailto:giuseppe.delcampo@outlook.com">giuseppe.delcampo@outlook.com</a></div>
                                 </div>
                             </div>
                         </Fade>

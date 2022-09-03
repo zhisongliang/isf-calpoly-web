@@ -32,9 +32,9 @@ const Footer = () => {
                     <Col lg={3} sm={6} xs={12} className="footer-col">
                         <div>
                             <div className="menu-title">OTHER LINKS</div>
-                            <div className="menu-item"><a href="https://main.de8en6hw10wec.amplifyapp.com">Sample 1</a></div>
-                            <div className="menu-item"><a href="https://main.de8en6hw10wec.amplifyapp.com">Sample 2</a></div>
-                            <div className="menu-item"><a href="https://main.de8en6hw10wec.amplifyapp.com">Sample 3</a></div>
+                            <div className="menu-item"><a href="isfcalpoly.org">Sample 1</a></div>
+                            <div className="menu-item"><a href="isfcalpoly.org">Sample 2</a></div>
+                            <div className="menu-item"><a href="isfcalpoly.org">Sample 3</a></div>
                         </div>
                     </Col>
 

@@ -6,20 +6,20 @@ const Details = () => {
         <section id="details">
             <Container>
                 <Fade left duration={500} delay={600} distance="30px">
-                    <div className="mb-5 text-center"><h2>Explore this event</h2></div>
+                    <div className="mb-5 text-center"><h2>Some of Our Past Events</h2></div>
                 </Fade>
 
                 <Fade left duration={500} delay={600} distance="30px">
                     <Row className="mb-5 mb-lg-0">
                         <Col lg={8} className="p-4">
-                            <img src={require("../Images/details/details1.jpg")} alt="Details1" data-cursor-text="Check out"  />
+                            <img src={require("../Images/details/details1.jpg")} alt="Details3" data-cursor-text="Check out"  />
                         </Col>
 
                         <Col lg={4} className="col-description">
                             <div>
-                                <h3 style={{ fontWeight: 'normal' }}>Event1.</h3>
-                                <p>I would love to tell more about it, but you'll have to press the button down here.</p>
-                                <a href="https://main.de8en6hw10wec.amplifyapp.com"><span className="button button-hero">Find out</span></a>
+                                <h3 style={{ fontWeight: 'normal' }}>Celebration of Lunar New Year 2022.</h3>
+                                <p> A big shoutout to all performers, facilitators, organizers and ISI team who hosted and cooked delicious food for all of the us.</p>
+                                <a href="isfcalpoly.org"><span className="button button-hero">Tell me about</span></a>
                             </div>
                         </Col>
                     </Row>
@@ -29,9 +29,9 @@ const Details = () => {
                     <Row className="mb-5 mb-lg-0">
                         <Col lg={4} className="col-description">
                             <div>
-                                <h3 style={{ fontWeight: 'normal' }}>Event2.</h3>
-                                <p>There's a ... maybe you should check out!</p>
-                                <a href="https://main.de8en6hw10wec.amplifyapp.com"><span className="button button-hero">Discover this one</span></a>
+                                <h3 style={{ fontWeight: 'normal' }}>Multi-Cultural Potluck Dinner.</h3>
+                                <p>There was a variety of food and dessert from different countries.</p>
+                                <a href="https://www.facebook.com/groups/calpoly.isf"><span className="button button-hero">Discover this one</span></a>
                             </div>
                         </Col>
 
@@ -44,19 +44,19 @@ const Details = () => {
                 <Fade left duration={500} delay={600} distance="30px">
                     <Row className="mb-5 mb-lg-0">
                         <Col lg={8} className="p-4">
-                            <img src={require("../Images/details/details3.jpg")} alt="Details3" data-cursor-text="Check out"  />
+                            <img src={require("../Images/details/details3.jpg")} alt="Details1" data-cursor-text="Check out"  />
                         </Col>
 
                         <Col lg={4} className="col-description">
                             <div>
-                                <h3 style={{ fontWeight: 'normal' }}>Event3</h3>
-                                <p>what do you think?</p>
-                                <a href="https://main.de8en6hw10wec.amplifyapp.com"><span className="button button-hero">Tell me about</span></a>
+                                <h3 style={{ fontWeight: 'normal' }}>Morro Bay Kayaking.</h3>
+                                <p>Kayaking could not be more fun than this. </p>
+                                <a href="https://www.facebook.com/groups/calpoly.isf/posts/4338759916242974/"><span className="button button-hero">Find out</span></a>
                             </div>
                         </Col>
                     </Row>
                 </Fade>
-
+                
             </Container>
         </section>
     );

@@ -1,6 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
-import { BiBuildings, BiCategoryAlt, BiHotel, BiMapAlt } from 'react-icons/bi';
+import { MdLocalAirport } from 'react-icons/md';
+import { IoFastFoodSharp } from 'react-icons/io5';
+import { GiHiking } from 'react-icons/gi';
+import { GiThreeFriends } from 'react-icons/gi';
+
 
 const iconStyle = { fontSize: 36 };
 
@@ -28,38 +32,38 @@ const About = () => {
                 </Fade>
             </section>
 
-           {/* <section id="about-p2">
+           <section id="about-p2">
                 <Fade left duration={500} delay={600} distance="30px">
                     <Container>
-                        <div className="mb-5"><h2>Let's take a look</h2></div>
+                        <div className="mb-5"><h2>What We Do</h2></div>
                         <Row>
                             <Col lg={3} md={3} sm={6} xs={12} className="mb-lg-0 mb-4">
-                                <div style={{ marginBottom: 32 }}><span className="about-icon"><BiBuildings style={iconStyle} /></span></div>
-                                <div><h5 className="secondary-color">A building icon</h5></div>
-                                <div style={{ marginLeft: 30, marginRight: 30 }}><p>I really like this icon, it's about a building.</p></div>
+                                <div style={{ marginBottom: 32 }}><span className="about-icon"><IoFastFoodSharp style={iconStyle} /></span></div>
+                                <div><h5 className="secondary-color">Dinner Events</h5></div>
+                                <div style={{ marginLeft: 30, marginRight: 30 }}><p>We have dinner events bi-weekly, come join us and meet new friends!</p></div>
                             </Col>
 
                             <Col lg={3} md={3} sm={6} xs={12} className="mb-lg-0 mb-4">
-                                <div style={{ marginBottom: 32 }}><span className="about-icon"><BiCategoryAlt style={iconStyle} /></span></div>
-                                <div><h5 className="secondary-color">Woopsie woopsie</h5></div>
-                                <div style={{ marginLeft: 30, marginRight: 30 }}><p>Remember that you can find this template on my GitHub profile.</p></div>
+                                <div style={{ marginBottom: 32 }}><span className="about-icon"><MdLocalAirport style={iconStyle} /></span></div>
+                                <div><h5 className="secondary-color">Airport Pick Up</h5></div>
+                                <div style={{ marginLeft: 30, marginRight: 30 }}><p>If you need free airport pick up, Contact us!</p></div>
                             </Col>
 
                             <Col lg={3} md={3} sm={6} xs={12} className="mb-lg-0 mb-4">
-                                <div style={{ marginBottom: 32 }}><span className="about-icon"><BiHotel style={iconStyle} /></span></div>
-                                <div><h5 className="secondary-color">A really cool bed</h5></div>
-                                <div style={{ marginLeft: 30, marginRight: 30 }}><p>I love sleeping.. I would sleep all day, i'm serious.</p></div>
+                                <div style={{ marginBottom: 32 }}><span className="about-icon"><GiHiking style={iconStyle} /></span></div>
+                                <div><h5 className="secondary-color">Outdoor Activities</h5></div>
+                                <div style={{ marginLeft: 30, marginRight: 30 }}><p>We hang out together, check out our future events and sign up!</p></div>
                             </Col>
 
                             <Col lg={3} md={3} sm={6} xs={12} className="mb-lg-0 mb-4">
-                                <div style={{ marginBottom: 32 }}><span className="about-icon"><BiMapAlt style={iconStyle} /></span></div>
-                                <div><h5 className="secondary-color">Is this .. a map?</h5></div>
-                                <div style={{ marginLeft: 30, marginRight: 30 }}><p>Yeah, this is a map! It can help you in many ways.</p></div>
+                                <div style={{ marginBottom: 32 }}><span className="about-icon"><GiThreeFriends style={iconStyle} /></span></div>
+                                <div><h5 className="secondary-color">Community for Oversea Students</h5></div>
+                                <div style={{ marginLeft: 30, marginRight: 30 }}><p>We provide welcoming space for international students.</p></div>
                             </Col>
                         </Row>
                     </Container>
                 </Fade>
-    </section> */}
+    </section>
         </>
     );
 };
