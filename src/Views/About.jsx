@@ -52,7 +52,7 @@ const About = () => {
                             <Col lg={3} md={3} sm={6} xs={12} className="mb-lg-0 mb-4">
                                 <div style={{ marginBottom: 32 }}><span className="about-icon"><MdLocalAirport style={iconStyle} /></span></div>
                                 <div><h5 className="secondary-color">Airport Pick Up</h5></div>
-                                <div style={{ marginLeft: 30, marginRight: 30 }}><p>If you need free airport pick up, Contact us!</p></div>
+                                <div style={{ marginLeft: 30, marginRight: 30 }}><p>If you need free airport/Amtrak/station pick up, contact us!</p></div>
                             </Col>
 
                             <Col lg={3} md={3} sm={6} xs={12} className="mb-lg-0 mb-4">

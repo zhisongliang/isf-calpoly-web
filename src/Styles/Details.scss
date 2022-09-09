@@ -14,9 +14,19 @@
         justify-content: center;
     }
 
+    @media screen and (min-width: 992px) {
+        .mobile{
+            display: none;
+        }
+    }
+        
     @media screen and (max-width: 991px) {
         .col-description {
             text-align: center;
+        }
+
+        .pc{
+            display: none;
         }
     }
 }

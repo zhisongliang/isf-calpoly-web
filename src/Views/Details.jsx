@@ -24,22 +24,43 @@ const Details = () => {
                         </Col>
                     </Row>
                 </Fade>
+                
+                <div className="pc">
+                    <Fade right duration={500} delay={600} distance="30px">
+                        <Row className="mb-5 mb-lg-0">
+                            <Col lg={4} className="col-description">
+                                <div>
+                                    <h3 style={{ fontWeight: 'normal' }}>Multi-Cultural Potluck Dinner.</h3>
+                                    <p>There was a variety of food and dessert from different countries.</p>
+                                    <a href="https://www.facebook.com/groups/calpoly.isf"><span className="button button-hero">Discover more</span></a>
+                                </div>
+                            </Col>
 
-                <Fade right duration={500} delay={600} distance="30px">
-                    <Row className="mb-5 mb-lg-0">
-                        <Col lg={4} className="col-description">
-                            <div>
-                                <h3 style={{ fontWeight: 'normal' }}>Multi-Cultural Potluck Dinner.</h3>
-                                <p>There was a variety of food and dessert from different countries.</p>
-                                <a href="https://www.facebook.com/groups/calpoly.isf"><span className="button button-hero">Discover more</span></a>
-                            </div>
-                        </Col>
+                            <Col lg={8} className="p-4">
+                                <img src={require("../Images/details/details2.jpg")} alt="Details2" data-cursor-text="Check out" />
+                            </Col>
+                        </Row>
+                    </Fade>
+                </div>
 
-                        <Col lg={8} className="p-4">
-                            <img src={require("../Images/details/details2.jpg")} alt="Details2" data-cursor-text="Check out" />
-                        </Col>
-                    </Row>
-                </Fade>
+                {/* mobile */}
+                <div className="mobile">
+                    <Fade right duration={500} delay={600} distance="30px">
+                        <Row className="mb-5 mb-lg-0">
+                            <Col lg={8} className="p-4">
+                                    <img src={require("../Images/details/details2.jpg")} alt="Details2" data-cursor-text="Check out" />
+                            </Col>
+                            
+                            <Col lg={4} className="col-description">
+                                    <div>
+                                        <h3 style={{ fontWeight: 'normal' }}>Multi-Cultural Potluck Dinner.</h3>
+                                        <p>There was a variety of food and dessert from different countries.</p>
+                                        <a href="https://www.facebook.com/groups/calpoly.isf"><span className="button button-hero">Discover more</span></a>
+                                    </div>
+                            </Col>
+                        </Row>
+                    </Fade>
+                </div>
 
                 <Fade left duration={500} delay={600} distance="30px">
                     <Row className="mb-5 mb-lg-0">
