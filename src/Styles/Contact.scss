@@ -1,4 +1,11 @@
 #contact {
     padding: 7rem 0px 7rem 0px;
     text-align: center;
+    img {
+        object-fit: cover;
+        width: 90%;
+        height: 90%;
+        padding-top: 2rem;
+        align-content: center;
+    }
 }

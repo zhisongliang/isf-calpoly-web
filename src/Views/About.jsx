@@ -24,13 +24,19 @@ const About = () => {
                         physical, social, emotional, and spiritual. We seek to help the Cal Poly, San Luis Obispo international 
                         student community reach their full potential as leaders.</span> 
                         </p>
+                        <br></br>
                         <p className="subtitle"><span className="black-color" style={{ fontWeight: 'bold' }}>
                         IN OTHER WORDS, WE WANT TO BE YOUR FRIENDS!!!</span> 
+                        </p>
+                        <br /><br /><br /><br />
+                        <p className="affliation"><small><span className="white-color">
+                        Affiliation with International Students Inc.</span></small>
                         </p>
                         </div>
                     </Container>
                 </Fade>
             </section>
+
 
            <section id="about-p2">
                 <Fade left duration={500} delay={600} distance="30px">

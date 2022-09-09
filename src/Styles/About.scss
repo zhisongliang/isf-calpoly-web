@@ -1,5 +1,6 @@
 #about {
-    padding: 7rem 0px 7rem 0px;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
     background-color: $secondary-color;
     text-align: center;
 
@@ -9,6 +10,10 @@
 
     .subtitle {
         font-size: 20px;
+    }
+
+    .right{
+        font-size: 12px;
     }
 }
 

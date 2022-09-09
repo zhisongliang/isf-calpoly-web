@@ -19,7 +19,7 @@ const Details = () => {
                             <div>
                                 <h3 style={{ fontWeight: 'normal' }}>Celebration of Lunar New Year 2022.</h3>
                                 <p> A big shoutout to all performers, facilitators, organizers and ISI team who hosted and cooked delicious food for all of the us.</p>
-                                <a href="isfcalpoly.org"><span className="button button-hero">Tell me about</span></a>
+                                <a href="https://www.instagram.com/isf_calpoly/"><span className="button button-hero">Find out more</span></a>
                             </div>
                         </Col>
                     </Row>
@@ -31,7 +31,7 @@ const Details = () => {
                             <div>
                                 <h3 style={{ fontWeight: 'normal' }}>Multi-Cultural Potluck Dinner.</h3>
                                 <p>There was a variety of food and dessert from different countries.</p>
-                                <a href="https://www.facebook.com/groups/calpoly.isf"><span className="button button-hero">Discover this one</span></a>
+                                <a href="https://www.facebook.com/groups/calpoly.isf"><span className="button button-hero">Discover more</span></a>
                             </div>
                         </Col>
 
@@ -50,13 +50,12 @@ const Details = () => {
                         <Col lg={4} className="col-description">
                             <div>
                                 <h3 style={{ fontWeight: 'normal' }}>Morro Bay Kayaking.</h3>
-                                <p>Kayaking could not be more fun than this. </p>
-                                <a href="https://www.facebook.com/groups/calpoly.isf/posts/4338759916242974/"><span className="button button-hero">Find out</span></a>
+                                <p>Great fun at Kayaking. </p>
+                                <a href="https://www.facebook.com/groups/calpoly.isf/posts/4338759916242974/"><span className="button button-hero">Find us on Facebook</span></a>
                             </div>
                         </Col>
                     </Row>
                 </Fade>
-                
             </Container>
         </section>
     );

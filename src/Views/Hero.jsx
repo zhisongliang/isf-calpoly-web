@@ -20,7 +20,7 @@ const Hero = () => {
                                     <div></div>
                                     <div style={{ display: 'flex' }}>
                                         <div className="navbar-item"><Link to="about" smooth duration={500}>About</Link></div>
-                                        <div className="navbar-item"><Link to="details" smooth duration={500}>Details</Link></div>
+                                        <div className="navbar-item"><Link to="details" smooth duration={500}>Events</Link></div>
                                         <div className="navbar-item" style={{ marginRight: 0 }}><Link to="contact" smooth duration={500}>Contact</Link></div>
                                     </div>
                                 </div>

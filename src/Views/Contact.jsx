@@ -6,9 +6,10 @@ const Contact = () => {
         <section id="contact">
             <Container>
                 <Fade bottom duration={500} delay={600} distance="30px">
-                    <h1>Get in touch</h1>
-                    <p>Would you like to attend our event?</p>
-                    <a href="isfcalpoly.org"><span className="button button-hero">fill out the google form</span></a>
+                    <h1>Future Events</h1>
+                    <p>Would you like to attend our coming events?</p>
+                    {/* <a href="isfcalpoly.org"><span className="button button-hero">fill out the google form</span></a> */}
+                    <div><img src={require("../Images/bonfire.png")} alt="event1" data-cursor-text="Check out"/></div>
                 </Fade>
             </Container>
         </section>
