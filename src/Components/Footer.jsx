@@ -16,7 +16,7 @@ const Footer = () => {
                         </div>
                         <div className="social-icons">
                         <a href="https://www.instagram.com/isf_calpoly/" className="social-link"><span className="circle-icon"><AiFillInstagram style={iconStyle} /></span></a>
-                            <a href="https://www.facebook.com/ISFcalpoly/about/?ref=page_internal" className="social-link"><span className="circle-icon"><AiFillFacebook style={iconStyle} /></span></a>
+                        <a href="https://www.facebook.com/ISFcalpoly/about/?ref=page_internal" className="social-link"><span className="circle-icon"><AiFillFacebook style={iconStyle} /></span></a>
                         </div>
                     </Col>
 
