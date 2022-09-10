@@ -30,7 +30,7 @@ const About = () => {
                         </p>
                         <br /><br /><br /><br />
                         <p className="affliation"><small><span className="white-color">
-                        Affiliation with International Students Inc.</span></small>
+                        Affiliated with International Students Inc.</span></small>
                         </p>
                         </div>
                     </Container>

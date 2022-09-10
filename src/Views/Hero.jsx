@@ -67,7 +67,7 @@ const Hero = () => {
                                 <div className="menu-container">
                                     <div className="menu-title">Menu</div>
                                     <div className="menu-item"><Link to="about" smooth duration={500} onClick={() => setLateralMenu(false)}>About</Link></div>
-                                    <div className="menu-item"><Link to="details" smooth duration={500} onClick={() => setLateralMenu(false)}>Details</Link></div>
+                                    <div className="menu-item"><Link to="details" smooth duration={500} onClick={() => setLateralMenu(false)}>Events</Link></div>
                                     <div className="menu-item"><Link to="contact" smooth duration={500} onClick={() => setLateralMenu(false)}>Contact</Link></div>
                                 </div>
                                 <div className="menu-container" style={{ marginTop: 30 }}>

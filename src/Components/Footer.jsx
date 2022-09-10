@@ -12,10 +12,11 @@ const Footer = () => {
                     <Col lg={6} xs={12} className="footer-col mb-4 mb-md-0">
                         <div>
                             <h2><a href="isfcalpoly.org">ISF</a></h2>
+                            <p>More information on our Ins/FB pages.</p>
                         </div>
                         <div className="social-icons">
+                        <a href="https://www.instagram.com/isf_calpoly/" className="social-link"><span className="circle-icon"><AiFillInstagram style={iconStyle} /></span></a>
                             <a href="https://www.facebook.com/ISFcalpoly/about/?ref=page_internal" className="social-link"><span className="circle-icon"><AiFillFacebook style={iconStyle} /></span></a>
-                            <a href="https://www.instagram.com/isf_calpoly/" className="social-link"><span className="circle-icon"><AiFillInstagram style={iconStyle} /></span></a>
                         </div>
                     </Col>
 
@@ -23,7 +24,7 @@ const Footer = () => {
                         <div>
                             <div className="menu-title">MENU</div>
                             <div className="menu-item"><Link to="about" smooth duration={500} >About</Link></div>
-                            <div className="menu-item"><Link to="details" smooth duration={500}>Details</Link></div>
+                            <div className="menu-item"><Link to="details" smooth duration={500}>Events</Link></div>
                             <div className="menu-item"><Link to="contact" smooth duration={500}>Contact</Link></div>
                         </div>
                     </Col>
