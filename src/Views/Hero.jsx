@@ -97,7 +97,7 @@ const Content = () => {
                         Tell me more
                     </span>
                 </Link> */}
-                <a href="https://forms.gle/7Gq5deDd9qZodrEF9"><span className="button button-hero">Fill out the interest form</span></a>
+                <a href="https://forms.gle/zDk3ACKhfneJmtko8"><span className="button button-hero">Fill out the interest form</span></a>
             </Fade>
         </div>
     );
