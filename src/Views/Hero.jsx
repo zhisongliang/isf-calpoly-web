@@ -92,11 +92,12 @@ const Content = () => {
                     <p style={{ maxWidth: 550 }}>The Cal Poly International Student Friendship Club wants to build lasting friendships among international students, scholars and Christian American friends.</p>
                 </div>
 
-                <Link to="about" smooth duration={500}>
+                {/* <Link to="about" smooth duration={500}>
                     <span className="button button-hero" data-cursor-text="Click me">
                         Tell me more
                     </span>
-                </Link>
+                </Link> */}
+                <a href="https://forms.gle/7Gq5deDd9qZodrEF9"><span className="button button-hero">Fill out the interest form</span></a>
             </Fade>
         </div>
     );
