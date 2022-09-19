@@ -24,8 +24,8 @@ const Footer = () => {
                         <div>
                             <div className="menu-title">MENU</div>
                             <div className="menu-item"><Link to="about" smooth duration={500} >About</Link></div>
-                            <div className="menu-item"><Link to="details" smooth duration={500}>Events</Link></div>
-                            <div className="menu-item"><Link to="contact" smooth duration={500}>Contact</Link></div>
+                            <div className="menu-item"><Link to="details" smooth duration={500}>Past Events</Link></div>
+                            <div className="menu-item"><Link to="contact" smooth duration={500}>Event Calendar</Link></div>
                         </div>
                     </Col>
 
