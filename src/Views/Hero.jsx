@@ -2,14 +2,14 @@ import { useScrollLock } from '@mantine/hooks';
 import { Container, Row, Col } from "react-bootstrap";
 import { HiMenuAlt2, HiX } from "react-icons/hi";
 import { Link } from 'react-scroll';
+import { AiFillFacebook, AiFillInstagram } from "react-icons/ai"; 
 import Fade from 'react-reveal/Fade';
 
 const Hero = () => {
     let [lateralMenu, setLateralMenu] = useScrollLock(false);
-
+    
     return (
         <section id="hero">
-
             <Container fluid style={{ height: '100vh' }} className="desktop">
                 <Row style={{ height: '100vh' }}>
 
@@ -20,8 +20,8 @@ const Hero = () => {
                                     <div></div>
                                     <div style={{ display: 'flex' }}>
                                         <div className="navbar-item"><Link to="about" smooth duration={500}>About</Link></div>
-                                        <div className="navbar-item"><Link to="details" smooth duration={500}>Events</Link></div>
-                                        <div className="navbar-item" style={{ marginRight: 0 }}><Link to="contact" smooth duration={500}>Contact</Link></div>
+                                        <div className="navbar-item"><Link to="details" smooth duration={500}>Past Events</Link></div>
+                                        <div className="navbar-item" style={{ marginRight: 0 }}><Link to="contact" smooth duration={500}>Events Calendar</Link></div>
                                     </div>
                                 </div>
                             </div>
@@ -67,8 +67,8 @@ const Hero = () => {
                                 <div className="menu-container">
                                     <div className="menu-title">Menu</div>
                                     <div className="menu-item"><Link to="about" smooth duration={500} onClick={() => setLateralMenu(false)}>About</Link></div>
-                                    <div className="menu-item"><Link to="details" smooth duration={500} onClick={() => setLateralMenu(false)}>Events</Link></div>
-                                    <div className="menu-item"><Link to="contact" smooth duration={500} onClick={() => setLateralMenu(false)}>Contact</Link></div>
+                                    <div className="menu-item"><Link to="details" smooth duration={500} onClick={() => setLateralMenu(false)}>Past Events</Link></div>
+                                    <div className="menu-item"><Link to="contact" smooth duration={500} onClick={() => setLateralMenu(false)}>Events Calendar</Link></div>
                                 </div>
                                 <div className="menu-container" style={{ marginTop: 30 }}>
                                 </div>
@@ -91,6 +91,13 @@ const Content = () => {
                     <h2>International Student Friendship</h2>
                     <p style={{ maxWidth: 550 }}>The Cal Poly International Student Friendship Club wants to build lasting friendships among international students, scholars and Christian American friends.</p>
                 </div>
+
+                <p style={{ maxWidth: 550 }}><i><strong>To join our events, 
+                look for the sign-up form for all the upcoming events 
+                at the bottom of this page in the Google calendar!</strong></i>
+                <br /><br />
+                If this is your first time hearing about us and would like to join our email list,
+                fill out your info from the link down below!</p>
 
                 {/* <Link to="about" smooth duration={500}>
                     <span className="button button-hero" data-cursor-text="Click me">
