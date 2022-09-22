@@ -1,7 +1,7 @@
 import Hero from "./Views/Hero";
 import About from "./Views/About";
-import Details from "./Views/Details";
-import Contact from "./Views/Contact";
+import Events from "./Views/Events";
+import Calendar from "./Views/Calendar";
 import Footer from "./Components/Footer";
 
 const App = () => {
@@ -9,8 +9,8 @@ const App = () => {
     <div className="App">
       <Hero />
       <About />
-      <Details />
-      <Contact />
+      <Events />
+      <Calendar />
       <Footer />
     </div>
   );

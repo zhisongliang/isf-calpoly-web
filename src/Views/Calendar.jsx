@@ -2,14 +2,14 @@ import { Container } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
 import { ReactEmbeddedGoogleCalendar } from 'react-embedded-google-calendar';
 
-const Contact = () => {
+const Calendar = () => {
     return (
-        <section id="contact">
+        <section id="calendar">
             <Container>
                 <Fade bottom duration={500} delay={600} distance="30px">
                     <h1>Future Events</h1>
-                    <p><bold>Check out our upcoming events, click and sign up the google form!</bold></p>
-                    <p>If it is your first time to attend our events, please fill out this interest form first.</p>
+                    <p><b>Check out our upcoming events, click and sign up the google form!</b></p>
+                    <p><b>If it is your first time to attend our events, please fill out this interest form first.</b></p>
                     <a href="https://forms.gle/zDk3ACKhfneJmtko8"><span className="button button-hero">Fill out the interest form</span></a>
                     <br /><br /> 
                     {/* <div><img src={require("../Images/bonfire.png")} alt="event1" data-cursor-text="Check out"/></div> */}
@@ -22,4 +22,4 @@ const Contact = () => {
     )
 };
 
-export default Contact;
+export default Calendar;

@@ -1,9 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
 
-const Details = () => {
+const Events = () => {
     return (
-        <section id="details">
+        <section id="events">
             <Container>
                 <Fade left duration={500} delay={600} distance="30px">
                     <div className="mb-5 text-center"><h2>Some of Our Past Events</h2></div>
@@ -82,4 +82,4 @@ const Details = () => {
     );
 };
 
-export default Details;
+export default Events;

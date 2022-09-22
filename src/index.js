@@ -12,9 +12,9 @@ MouseFollower.registerGSAP(gsap);
 const cursor = new MouseFollower();
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <App />
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById('root')
 );
 

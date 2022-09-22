@@ -2,7 +2,6 @@ import { useScrollLock } from '@mantine/hooks';
 import { Container, Row, Col } from "react-bootstrap";
 import { HiMenuAlt2, HiX } from "react-icons/hi";
 import { Link } from 'react-scroll';
-import { AiFillFacebook, AiFillInstagram } from "react-icons/ai"; 
 import Fade from 'react-reveal/Fade';
 
 const Hero = () => {
@@ -20,8 +19,8 @@ const Hero = () => {
                                     <div></div>
                                     <div style={{ display: 'flex' }}>
                                         <div className="navbar-item"><Link to="about" smooth duration={500}>About</Link></div>
-                                        <div className="navbar-item"><Link to="details" smooth duration={500}>Past Events</Link></div>
-                                        <div className="navbar-item" style={{ marginRight: 0 }}><Link to="contact" smooth duration={500}>Events Calendar</Link></div>
+                                        <div className="navbar-item"><Link to="events" smooth duration={500}>Past Events</Link></div>
+                                        <div className="navbar-item" style={{ marginRight: 0 }}><Link to="calendar" smooth duration={500}>Events Calendar</Link></div>
                                     </div>
                                 </div>
                             </div>
@@ -67,8 +66,8 @@ const Hero = () => {
                                 <div className="menu-container">
                                     <div className="menu-title">Menu</div>
                                     <div className="menu-item"><Link to="about" smooth duration={500} onClick={() => setLateralMenu(false)}>About</Link></div>
-                                    <div className="menu-item"><Link to="details" smooth duration={500} onClick={() => setLateralMenu(false)}>Past Events</Link></div>
-                                    <div className="menu-item"><Link to="contact" smooth duration={500} onClick={() => setLateralMenu(false)}>Events Calendar</Link></div>
+                                    <div className="menu-item"><Link to="events" smooth duration={500} onClick={() => setLateralMenu(false)}>Past Events</Link></div>
+                                    <div className="menu-item"><Link to="calendar" smooth duration={500} onClick={() => setLateralMenu(false)}>Events Calendar</Link></div>
                                 </div>
                                 <div className="menu-container" style={{ marginTop: 30 }}>
                                 </div>
