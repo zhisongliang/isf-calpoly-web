@@ -1,18 +1,18 @@
-//import { useScrollLock } from '@mantine/hooks';
 import { Container, Row, Col } from "react-bootstrap";
-import { HiMenuAlt2, HiX } from "react-icons/hi";
 import { Link } from 'react-scroll';
-import Fade from 'react-reveal/Fade';
+import {Fade, Slide} from 'react-awesome-reveal';
+// import { useScrollLock } from '@mantine/hooks';
+// import { HiMenuAlt2, HiX } from "react-icons/hi";
 
 const Hero = () => {
-    //let [lateralMenu, setLateralMenu] = useScrollLock(false);
+    // let [lateralMenu, setLateralMenu] = useScrollLock(false);
     
     return (
         <section id="hero">
             <Container fluid style={{ height: '100vh' }} className="desktop">
                 <Row style={{ height: '100vh' }}>
                     <Col lg={6} className="col-content">
-                        <Fade bottom duration={500} delay={600} distance="30px">
+                        <Fade bottom duration={500} delay={600} distance="30px" triggerOnce>
                             <div className="header">
                                 <div className="header-content">
                                     <div></div>
@@ -28,18 +28,15 @@ const Hero = () => {
                     </Col>
 
                     <Col lg={6} className="p-0">
-                        <Fade bottom duration={500} delay={600} distance="30px">
                             <img src={require("../Images/hero.jpg")} alt="Hero" />
-                        </Fade>
                     </Col>
 
                 </Row>
             </Container>
 
             <div className="mobile">
-                <Fade bottom duration={500} delay={600} distance="30px">
-
-                    <img src={require("../Images/hero.jpg")} alt="Hero" />
+                <Fade bottom duration={500} delay={600} distance="30px" triggerOnce>
+                    <img src={require("../Images/hero1.png")} alt="Hero" />
                     <div className="header">
                         <div className="header-content">
                             <div></div>
@@ -73,7 +70,6 @@ const Hero = () => {
                             </div>
                         </Fade>
                     </div> */}
-
             </div>
 
         </section>
@@ -83,7 +79,7 @@ const Hero = () => {
 const Content = () => {
     return (
         <div>
-            <Fade left duration={500} delay={600} distance="30px">
+            <Fade direction="left" duration={500} delay={600} distance="30px" triggerOnce >
                 <div className="mb-4">
                     <h1 className="primary-color">ISF</h1>
                     <h2>International Student Friendship</h2>
