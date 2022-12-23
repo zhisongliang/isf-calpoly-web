@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from 'react-scroll';
-import {Fade, Slide} from 'react-awesome-reveal';
+import {Fade} from 'react-awesome-reveal';
 // import { useScrollLock } from '@mantine/hooks';
 // import { HiMenuAlt2, HiX } from "react-icons/hi";
 
