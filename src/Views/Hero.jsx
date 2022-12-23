@@ -28,6 +28,7 @@ const Hero = () => {
                     </Col>
 
                     <Col lg={6} className="p-0">
+                        {/* <Fade></Fade> */}
                             <img src={require("../Images/hero.jpg")} alt="Hero" />
                     </Col>
 
