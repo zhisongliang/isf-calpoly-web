@@ -1,15 +1,15 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 const Events = () => {
     return (
         <section id="events">
             <Container>
-                <Fade left duration={500} delay={600} distance="30px">
+                <Fade diretion="left" duration={500} delay={600} triggerOnce>
                     <div className="mb-5 text-center"><h2>Some of Our Past Events</h2></div>
                 </Fade>
 
-                <Fade left duration={500} delay={600} distance="30px">
+                <Fade diretion="left" duration={500} delay={600} triggerOnce>
                     <Row className="mb-5 mb-lg-0">
                         <Col lg={8} className="p-4">
                             <img src={require("../Images/details/details1.jpg")} alt="Details3" data-cursor-text="Check out"  />
@@ -26,7 +26,7 @@ const Events = () => {
                 </Fade>
                 
                 <div className="pc">
-                    <Fade right duration={500} delay={600} distance="30px">
+                    <Fade diretion="right" duration={500} delay={600} triggerOnce>                        
                         <Row className="mb-5 mb-lg-0">
                             <Col lg={4} className="col-description">
                                 <div>
@@ -45,7 +45,7 @@ const Events = () => {
 
                 {/* mobile */}
                 <div className="mobile">
-                    <Fade right duration={500} delay={600} distance="30px">
+                    <Fade diretion="right" duration={500} delay={600} triggerOnce>                        
                         <Row className="mb-5 mb-lg-0">
                             <Col lg={8} className="p-4">
                                     <img src={require("../Images/details/details2.jpg")} alt="Details2" data-cursor-text="Check out" />
@@ -62,7 +62,7 @@ const Events = () => {
                     </Fade>
                 </div>
 
-                <Fade left duration={500} delay={600} distance="30px">
+                <Fade diretion="left" duration={500} delay={600} triggerOnce>
                     <Row className="mb-5 mb-lg-0">
                         <Col lg={8} className="p-4">
                             <img src={require("../Images/details/details3.jpg")} alt="Details1" data-cursor-text="Check out"  />

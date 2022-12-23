@@ -1,17 +1,16 @@
-import { useScrollLock } from '@mantine/hooks';
+//import { useScrollLock } from '@mantine/hooks';
 import { Container, Row, Col } from "react-bootstrap";
 import { HiMenuAlt2, HiX } from "react-icons/hi";
 import { Link } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
 const Hero = () => {
-    let [lateralMenu, setLateralMenu] = useScrollLock(false);
+    //let [lateralMenu, setLateralMenu] = useScrollLock(false);
     
     return (
         <section id="hero">
             <Container fluid style={{ height: '100vh' }} className="desktop">
                 <Row style={{ height: '100vh' }}>
-
                     <Col lg={6} className="col-content">
                         <Fade bottom duration={500} delay={600} distance="30px">
                             <div className="header">
@@ -45,9 +44,9 @@ const Hero = () => {
                         <div className="header-content">
                             <div></div>
                             <div>
-                                {!lateralMenu 
+                                {/* {!lateralMenu 
                                 ? <HiMenuAlt2 style={{ fontSize: 24 }} onClick={() => setLateralMenu(true)} /> 
-                                : <HiX style={{ fontSize: 24, color: lateralMenu ? "#383535" : "#eeeded"  }} onClick={() => setLateralMenu(false)} /> }
+                                : <HiX style={{ fontSize: 24, color: lateralMenu ? "#383535" : "#eeeded"  }} onClick={() => setLateralMenu(false)} /> } */}
                             </div>
                         </div>
                     </div>
@@ -59,7 +58,7 @@ const Hero = () => {
 
                 </Fade>
 
-                    <div style={{ display: lateralMenu ? 'block' : 'none' }} className="sidebar">
+                    {/* <div style={{ display: lateralMenu ? 'block' : 'none' }} className="sidebar">
                         <Fade right duration={400} distance="30px">
                             <div className="sidebar-backdrop" />
                             <div className="sidebar-content">
@@ -73,7 +72,7 @@ const Hero = () => {
                                 </div>
                             </div>
                         </Fade>
-                    </div>
+                    </div> */}
 
             </div>
 

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.5",
     "@mantine/hooks": "^4.2.8",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
@@ -12,6 +13,7 @@
     "mouse-follower": "^1.0.1",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
+    "react-awesome-reveal": "^4.1.0",
     "react-bootstrap": "^2.1.2",
     "react-dom": "^17.0.2",
     "react-embedded-google-calendar": "^1.0.11",

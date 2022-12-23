@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 import { MdLocalAirport } from 'react-icons/md';
 import { IoFastFoodSharp } from 'react-icons/io5';
 import { GiHiking } from 'react-icons/gi';
@@ -12,7 +12,7 @@ const About = () => {
     return (
         <>
             <section id="about">
-                <Fade left duration={500} delay={600} distance="30px">
+                <Fade direction="left" duration={500} delay={600} triggerOnce>
                     <Container>
                         <div>
                         <p className="title">
@@ -39,7 +39,7 @@ const About = () => {
 
 
            <section id="about-p2">
-                <Fade left duration={500} delay={600} distance="30px">
+                <Fade distance="left" duration={500} delay={600} triggerOnce>
                     <Container>
                         <div className="mb-5"><h2>What We Do</h2></div>
                         <Row>
