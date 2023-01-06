@@ -1,18 +1,16 @@
-import Hero from "./Views/Hero";
-import About from "./Views/About";
-import Events from "./Views/Events";
-import Calendar from "./Views/Calendar";
-import Footer from "./Components/Footer";
+import {BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import Home from './Home';
+import PrivacyPolicy from './Components/PrivacyPolicy';
 
 const App = () => {
   return (
-    <div className="App">
-      <Hero />
-      <About />
-      <Events />
-      <Calendar />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </Router>
   );
 }
 
