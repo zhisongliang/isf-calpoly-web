@@ -80,7 +80,7 @@ const Footer = () => {
                             <div className="menu-item"><a href="https://www.facebook.com/ISFcalpoly">Facebook: @ISFcalpoly</a></div>  
                         </div>
                     </Col>
-                    <div className="copyright">  © {new Date().getFullYear()} ISF-Zhisong Liang</div>
+                    <div className="copyright">  © {new Date().getFullYear()} ISF Cal Poly</div>
                 </Row>
             </Container>
         </footer>
