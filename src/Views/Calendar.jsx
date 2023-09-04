@@ -10,7 +10,7 @@ const Calendar = () => {
                     <h1>Future Events</h1>
                     <p><b>Check out our upcoming events, click and sign up the google form!</b></p>
                     <p><b>If it is your first time to attend our events, please fill out this interest form first.</b></p>
-                    <a href="https://forms.gle/zDk3ACKhfneJmtko8"><span className="button button-hero">Fill out the interest form</span></a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0hn7QdQ20TS9J_87EUOPMPR6KtsE6pJpnIylOokfuj60MIA/viewform?usp=sf_link"><span className="button button-hero">Fill out the interest form</span></a>
                     <br /><br /> 
                     {/* <div><img src={require("../Images/bonfire.png")} alt="event1" data-cursor-text="Check out"/></div> */}
                     <ReactEmbeddedGoogleCalendar className="calender"
