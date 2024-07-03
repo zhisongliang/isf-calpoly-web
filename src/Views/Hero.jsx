@@ -87,10 +87,7 @@ const Content = () => {
                     <p style={{ maxWidth: 550 }}>The Cal Poly International Student Friendship Club wants to build lasting friendships among international students, scholars and Christian American friends.</p>
                 </div>
 
-                <p style={{ maxWidth: 550 }}><i><strong>To join our events, 
-                look for the sign-up form for all the upcoming events 
-                at the bottom of this page in the Google calendar!</strong></i>
-                <br /><br />
+                <p style={{ maxWidth: 550 }}>
                 If this is your first time hearing about us and would like to join our email list,
                 fill out your info from the link down below!</p>
 
