@@ -17,7 +17,7 @@ const Events = () => {
 
                         <Col lg={4} className="col-description">
                             <div>
-                                <h3 style={{ fontWeight: 'normal' }}>Celebration of Lunar New Year 2022.</h3>
+                                <h3 style={{ fontWeight: 'normal' }}>Celebration of Lunar New Year.</h3>
                                 <p> A big shoutout to all performers, facilitators, organizers and ISI team who hosted and cooked delicious food for all of the us.</p>
                                 <a href="https://www.instagram.com/isf_calpoly/"><span className="button button-hero">Find out more</span></a>
                             </div>
