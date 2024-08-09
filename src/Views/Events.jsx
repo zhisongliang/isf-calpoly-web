@@ -78,7 +78,7 @@ const Events = () => {
                     </Row>
                 </Fade>
 
-                {/*Adding a YouTube video */}
+                {/*
 
                 
         <Row className="mb-5 mb-lg-0">
@@ -97,7 +97,7 @@ const Events = () => {
                 </div>
             </Col>
         </Row>
-                {/ *End of adding YouTube video */}
+                End of adding YouTube video */}
     
 
                 
