@@ -19,7 +19,7 @@ const About = () => {
                             <span className="white-color" style={{ fontWeight: 'bold' }}>ISF</span> - International Student Friendship
                         </p>
                         
-                        <img src={require("../Images/isf-no-circle.jpg")} alt="ISF Logo"/>
+                        <img src={require("../Images/isf-no-circle.jpg")} style={{width: 100, height: 100}} alt="ISF Logo"/>
                          
                         <p className="subtitle"><span className="black-color" style={{ fontWeight: 'bold' }}>
                         The Cal Poly International Student Friendship Club wants to build lasting friendships among international students, 
