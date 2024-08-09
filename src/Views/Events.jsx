@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, ResponsiveEmbed } from "react-bootstrap";
 import { Fade } from "react-awesome-reveal";
 
 const Events = () => {
@@ -77,6 +77,28 @@ const Events = () => {
                         </Col>
                     </Row>
                 </Fade>
+
+        //Adding a YouTube video 
+        <Row className="mb-5 mb-lg-0">
+            <Col lg={8} className="p-4">
+                    <div style="position:relative;height:0;overflow:hidden;max-width:100%;padding-bottom:56.25%;">
+                    <iframe src="https://www.youtube.com/watch?v=c_U7xwErCas"  
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                    frameborder="0"
+                    allowfullscreen></iframe>
+                </div>
+            </Col>
+
+            <Col lg={4} className="col-description">
+                <div>
+                    <h3 style={{ fontWeight: 'normal' }}>ISF Recap 2023-2024 School Year.</h3>
+                </div>
+            </Col>
+        </Row>
+        //End of adding YouTube video
+    
+
+                
             </Container>
         </section>
     );
