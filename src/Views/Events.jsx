@@ -84,9 +84,9 @@ const Events = () => {
         <Row className="mb-5 mb-lg-0">
             <Col lg={8} className="p-4">
                 {/* test adding YouTube video */}
-                <div style="position:relative;height:0;overflow:hidden;max-width:100%;padding-bottom:56.25%;">
+                <div style={{position:"relative", height:"0", overflow:"hidden", max-width:"100%", padding-bottom:"56.25%"}}>
                     <iframe src="https://www.youtube.com/watch?v=c_U7xwErCas"  
-                    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                    style={{position: "absolute", top: "0", left:"0", width:"100%", height:"100%"}}
                     frameborder="0"
                     allowfullscreen></iframe>
                 </div>
