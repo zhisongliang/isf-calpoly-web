@@ -78,7 +78,9 @@ const Events = () => {
                     </Row>
                 </Fade>
 
-        //Adding a YouTube video 
+                {/*Adding a YouTube video */}
+
+                
         <Row className="mb-5 mb-lg-0">
             <Col lg={8} className="p-4">
                     <div style="position:relative;height:0;overflow:hidden;max-width:100%;padding-bottom:56.25%;">
@@ -95,7 +97,7 @@ const Events = () => {
                 </div>
             </Col>
         </Row>
-        //End of adding YouTube video
+                {/ *End of adding YouTube video */}
     
 
                 
