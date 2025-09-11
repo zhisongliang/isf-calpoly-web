@@ -53,9 +53,15 @@ const Footer = () => {
           <Col lg={6} xs={12} className="footer-col mb-4 mb-md-0">
             <div>
               <h2>
-                <a href="https://isfcalpoly.org" target="_blank" rel="noopener noreferrer">ISF</a>
+                <a
+                  href="https://isfcalpoly.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ISF
+                </a>
               </h2>
-              <p>More information on our Ins/FB pages.</p>
+              <p>More information on our Ins pages.</p>
             </div>
             <div className="social-icons">
               <a
@@ -100,7 +106,9 @@ const Footer = () => {
             <div>
               <div className="menu-title">Contact us</div>
               <div className="menu-item">
-                <a href="mailto:isfcalpoly@gmail.com">Email: isfcalpoly@gmail.com</a>
+                <a href="mailto:isfcalpoly@gmail.com">
+                  Email: isfcalpoly@gmail.com
+                </a>
               </div>
               <div className="menu-item">
                 <a href="https://www.instagram.com/isf_calpoly/">
