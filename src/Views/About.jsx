@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import logo from "../Images/isf-no-circle.jpg";
 import { Fade } from "react-awesome-reveal";
 import { MdLocalAirport } from 'react-icons/md';
 import { IoFastFoodSharp } from 'react-icons/io5';
@@ -14,7 +15,7 @@ const About = () => {
             <section id="about">
                 <Fade direction="left" duration={500} delay={600} triggerOnce>
                     <Container>
-                        <img src={require("../Images/isf-no-circle.jpg")} style={{width: 150, height: 150}} alt="ISF Logo"/>
+                        <img src={logo} style={{width: 150, height: 150}} alt="ISF Logo"/>
                         <div>
                         <p className="title">
                             <span className="white-color" style={{ fontWeight: 'bold' }}>ISF</span> - International Student Friendship

@@ -2,9 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import MouseFollower from "mouse-follower";
-import gsap from "gsap";
+import MouseFollower from 'mouse-follower';
+import gsap from 'gsap';
 
 MouseFollower.registerGSAP(gsap);
 
@@ -18,4 +17,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-reportWebVitals();
+

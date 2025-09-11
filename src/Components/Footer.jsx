@@ -1,14 +1,14 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillFacebook, AiFillInstagram } from "react-icons/ai"; 
-import { Link } from 'react-scroll';
-import { Link as RouterLink } from 'react-router-dom';
+import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
+import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 // import { useState } from "react";
 
 const iconStyle = { fontSize: 23 };
 
 // const PrivacyButton = () => {
 //   const [showPrivacy, setShowPrivacy] = useState(false);
-  
+
 //   const handleMouseOver = () => {
 //     setShowPrivacy(true);
 //   }
@@ -23,11 +23,11 @@ const iconStyle = { fontSize: 23 };
 
 //   return (
 //     <div>
-//       <button 
+//       <button
 //         onMouseOver={handleMouseOver}
 //         //onClick={handleClick}
 //         onMouseOut={handleMouseOut}
-//         style={{border: 'none', textDecoration: 'underline'}}          
+//         style={{border: 'none', textDecoration: 'underline'}}
 //         >Privacy Terms
 //       </button>
 //       {showPrivacy && <div style={{textAlign: 'left'}}>
@@ -46,45 +46,77 @@ const iconStyle = { fontSize: 23 };
 // }
 
 const Footer = () => {
-    return (
-        <footer>
-            <Container>
-                <Row>
-                    <Col lg={6} xs={12} className="footer-col mb-4 mb-md-0">
-                        <div>
-                            <h2><a href="isfcalpoly.org">ISF</a></h2>
-                            <p>More information on our Ins/FB pages.</p>
-                        </div>
-                        <div className="social-icons">
-                        <a href="https://www.instagram.com/isf_calpoly/" className="social-link"><span className="circle-icon"><AiFillInstagram style={iconStyle} /></span></a>
-                        <a href="https://www.facebook.com/ISFcalpoly/about/?ref=page_internal" className="social-link"><span className="circle-icon"><AiFillFacebook style={iconStyle} /></span></a>
-                        </div>
-                    </Col>
+  return (
+    <footer>
+      <Container>
+        <Row>
+          <Col lg={6} xs={12} className="footer-col mb-4 mb-md-0">
+            <div>
+              <h2>
+                <a href="https://isfcalpoly.org" target="_blank" rel="noopener noreferrer">ISF</a>
+              </h2>
+              <p>More information on our Ins/FB pages.</p>
+            </div>
+            <div className="social-icons">
+              <a
+                href="https://www.instagram.com/isf_calpoly/"
+                className="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="circle-icon">
+                  <AiFillInstagram style={iconStyle} />
+                </span>
+              </a>
+            </div>
+          </Col>
 
-                    <Col lg={3} sm={6} xs={12} className="footer-col mb-4 mb-md-0">
-                        <div>
-                            <div className="menu-title">MENU</div>
-                            <div className="menu-item"><Link to="about" smooth duration={500} >About</Link></div>
-                            <div className="menu-item"><Link to="events" smooth duration={500}>Past Events</Link></div>
-                            <div className="menu-item"><Link to="calendar" smooth duration={500}>Event Calendar</Link></div>
-                            {/* link to a new page */}
-                            <div className="menu-item"><RouterLink to="/privacy">Privacy Policy</RouterLink></div>
-                        </div>
-                    </Col>
+          <Col lg={3} sm={6} xs={12} className="footer-col mb-4 mb-md-0">
+            <div>
+              <div className="menu-title">MENU</div>
+              <div className="menu-item">
+                <Link to="about" smooth duration={500}>
+                  About
+                </Link>
+              </div>
+              <div className="menu-item">
+                <Link to="events" smooth duration={500}>
+                  Past Events
+                </Link>
+              </div>
+              <div className="menu-item">
+                <Link to="calendar" smooth duration={500}>
+                  Event Calendar
+                </Link>
+              </div>
+              {/* link to a new page */}
+              <div className="menu-item">
+                <RouterLink to="/privacy">Privacy Policy</RouterLink>
+              </div>
+            </div>
+          </Col>
 
-                    <Col lg={3} sm={6} xs={12} className="footer-col">
-                        <div>
-                            <div className="menu-title">Contact us</div>
-                            <div className="menu-item"><a href="isfcalpoly@gmail.com"> </a>Email: isfcalpoly@gmail.com </div>
-                            <div className="menu-item"><a href="https://www.instagram.com/isf_calpoly/">Instagram: @isf_calpoly</a></div>
-                            <div className="menu-item"><a href="https://www.facebook.com/ISFcalpoly">Facebook: @ISFcalpoly</a></div>  
-                        </div>
-                    </Col>
-                    <div className="copyright">  © {new Date().getFullYear()} ISF Cal Poly</div>
-                </Row>
-            </Container>
-        </footer>
-    )
+          <Col lg={3} sm={6} xs={12} className="footer-col">
+            <div>
+              <div className="menu-title">Contact us</div>
+              <div className="menu-item">
+                <a href="mailto:isfcalpoly@gmail.com">Email: isfcalpoly@gmail.com</a>
+              </div>
+              <div className="menu-item">
+                <a href="https://www.instagram.com/isf_calpoly/">
+                  Instagram: @isf_calpoly
+                </a>
+              </div>
+            </div>
+          </Col>
+          <div className="copyright">
+            {" "}
+            © {new Date().getFullYear()} ISF Cal Poly
+          </div>
+        </Row>
+      </Container>
+    </footer>
+  );
 };
 
 export default Footer;

@@ -1,0 +1,14 @@
+/* Design tokens and shared utilities */
+$primary-color: #c55050;
+$secondary-color: #e18351;
+
+$black-color: #383535;
+$white-color: #eeeded;
+
+.primary-color { color: $primary-color; }
+.secondary-color { color: $secondary-color; }
+.white-color { color: $white-color; }
+.black-color { color: $black-color; }
+.primary-bg-color { background-color: $primary-color; }
+.secondary-bg-color { background-color: $secondary-color; }
+

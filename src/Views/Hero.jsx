@@ -1,4 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
+import hero from "../Images/hero.jpg";
+import hero1 from "../Images/hero1.png";
 import { Link } from 'react-scroll';
 import {Fade} from 'react-awesome-reveal';
 // import { useScrollLock } from '@mantine/hooks';
@@ -29,7 +31,7 @@ const Hero = () => {
 
                     <Col lg={6} className="p-0">
                         {/* <Fade></Fade> ..*/}
-                            <img src={require("../Images/hero.jpg")} alt="Hero" />
+                            <img src={hero} alt="Hero" />
                     </Col>
 
                 </Row>
@@ -37,7 +39,7 @@ const Hero = () => {
 
             <div className="mobile">
                 <Fade bottom duration={500} delay={600} distance="30px" triggerOnce>
-                    <img src={require("../Images/hero1.png")} alt="Hero" />
+                    <img src={hero1} alt="Hero" />
                     <div className="header">
                         <div className="header-content">
                             <div></div>

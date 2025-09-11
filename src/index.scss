@@ -1,20 +1,15 @@
-@import "~bootstrap/scss/bootstrap";
+@use "bootstrap/scss/bootstrap";
+@use "mouse-follower/src/scss/index";
+@use "./Styles/settings" as *;
+@use './Styles/Hero.scss' as *;
+@use './Styles/About.scss' as *;
+@use './Styles/Events.scss' as *;
+@use './Styles/Button.scss' as *;
+@use './Styles/Footer.scss' as *;
+@use './Styles/Calendar.scss' as *;
 @import "./Fonts/catamaran/styles.css";
-@import "../node_modules/mouse-follower/src/scss/index.scss";
 
-/* Colors */
-$primary-color: #c55050;
-$secondary-color: #e18351;
-
-$black-color: #383535;
-$white-color: #eeeded;
-
-.primary-color { color: $primary-color; }
-.secondary-color { color: $secondary-color; }
-.white-color { color: $white-color; }
-.black-color { color: $black-color; }
-.primary-bg-color { background-color: $primary-color; }
-.secondary-bg-color { background-color: $secondary-color; }
+/* Colors moved to Styles/_settings.scss and brought in via @use */
 
 /* Main styles and typography */
 body {
@@ -74,10 +69,3 @@ a:hover {
     .desktop { display: block !important; }
     .mobile { display: none !important; }
 }
-
-@import './Styles/Hero.scss';
-@import './Styles/About.scss';
-@import './Styles/Events.scss';
-@import './Styles/Button.scss';
-@import './Styles/Footer.scss';
-@import './Styles/Calendar.scss';
